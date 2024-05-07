@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  color: #414a4c;
+}
+
+.contactos {
+  width: 25%;
+  background-color: white;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.header {
+  border: 1px solid #E5E4E2;
+  background-color: white;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  padding: 0 3rem;
+  gap: 0 1rem;
+  line-height: 0.1;
+}
+
+
+.header img {
+  border-radius: 50%;
+  border: 3px solid #E5E4E2;
+  width: 50px;
+  height: 50px;
+}
+
+.iconos {
+    margin-left: auto; 
+  }
+
+.iconos i {
+    margin-left: 10px; 
+    color: gray; 
+    font-size: 23px; 
+  }
+
+.boton {
+  border: 1px solid #E5E4E2;
+  background-color: white;
+  height: 18vh; 
+}
+
+.chat {
+  text-align: center;
+  background-color: #a491d2;
+  padding: 20px;
+  margin: 50px auto;
+  color: white;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.usuario {
+  border: 1px solid #E5E4E2;
+  background-color: white;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  padding: 0 3rem;
+  gap: 0 1rem;
+  line-height: 0.3;
+}
+
+.usuario img {
+  border-radius: 50%;
+  border: 3px solid #E5E4E2;
+}
+
+.mm {
+  font-weight: 300;
+  font-style: normal;
+  color: gray;
+  font-size: 13px;
+}
+
+.thumbnail {
+  width: 60px;
+  height: 60px;
+}
+
+.principal {
+  background-color: whitesmoke;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.img {
+  margin-top: 100px;
+  width: 350px;
+}
+
+.texto {
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.texto h1 {
+  font-weight: 500;
+  font-style: normal;
+  font-size: 60px;
+}
+
+.texto p {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 0.5;
+}
